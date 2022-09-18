@@ -1,8 +1,8 @@
 #!/bin/bash
 
-ZONE=""
-SUB_DOMAIN=""
-RECORD_ID=""
+ZONE=$1
+SUB_DOMAIN=$2
+RECORD_ID=$3
 
 IP=$(./ddns.sh)
 
